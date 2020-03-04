@@ -5,8 +5,11 @@ class Api::V1::DestinationsController < ApplicationController
         render json: @destinations
     end
 
+     # GET /destinations/1
     def show
-    end
+        @destination = Destination.find(params[:id])
+        render json: @destination
+      end
     
     
 end

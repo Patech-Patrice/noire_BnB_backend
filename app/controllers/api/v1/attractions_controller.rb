@@ -7,6 +7,7 @@ class Api::V1::AttractionsController < ApplicationController
 
       # GET /attractions/1
   def show
+    @attraction = Attraction.find(params[:id])
     render json: @attraction
   end
 
