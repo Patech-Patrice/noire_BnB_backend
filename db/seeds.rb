@@ -32,6 +32,8 @@ Destination.create(city: 'Chatham Island', state: 'Mandalay Beach', country: 'Au
 
 
 #Attraction.create(name:'Eiffel Tower', description: 'A wrought-iron lattice tower on the Champ de Mars in Paris, France named after Gustave Eiffel.', destination_id:'1',)
+
+
 Attraction.create(name:'Duomo di Milano', description: 'The Duomo, symbol of Milan in the world, is one of the largest cathedrals in Italy and Europe.', destination_id:'2')
 Attraction.create(name:'Colosseum', description: 'The Colosseum or Coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine limestone, tuff, and brick-faced concrete.', destination_id:'3')
 Attraction.create(name:'Buckingham Palace', description: 'Home of the Monarchs', destination_id:'4')
@@ -56,6 +58,8 @@ Attraction.create(name:'Norwegian Shipwreck', description: 'See the shipwreck of
 
 
 #Comment.create(content:'Most Visited Paid Monument in the World', destination_id:'1', attraction_id:'1',)
+
+
 Comment.create(content:'The architecture of this city has me quivering with joy!', destination_id:'2', attraction_id:'2')
 Comment.create(content:'I have always been a huge fan of Spartacus and the rise and fall of the Roman Empire. Hopeful to see the arena firsthand one day.', destination_id:'3', attraction_id:'3')
 Comment.create(content:'Tea with the Queen? Sure!', destination_id:'4', attraction_id:'4')
