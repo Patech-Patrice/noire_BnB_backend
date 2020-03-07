@@ -1,5 +1,5 @@
 class Attraction < ApplicationRecord
-        has_many :destinations
+        belongs_to :destinations
         has_many :comments
     
 end
