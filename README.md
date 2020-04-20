@@ -1,25 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To begin:
 
-Things you may want to cover:
+clone repo
 
-* Ruby version
+cd into noire_BnB_backend
 
-* System dependencies
+run rails db:create
 
-* Configuration
+then rails db:migrate
 
-* Database creation
+Finally run rails db:seed to seed the database
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # noire_BnB_backend
