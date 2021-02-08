@@ -17,7 +17,7 @@ gem 'puma', '~> 4.1'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'active_model_serializers', '~> 0.10.7'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 
 
 # Use Active Storage variant
